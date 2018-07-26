@@ -1,7 +1,19 @@
-body{
-	
+body, html{
+	margin: 0;
+	padding: 0;	
 }
 
-html{
-	
+#top{
+	display: block;
+	position: relative;
+	padding: 8px;
+	background-color: #F5F5F5;
+	-webkit-box-shadow: inset 0px 5px 10px 5px rgba(76, 76, 76, 0.3);
+	-moz-box-shadow:    inset 0px 5px 10px 5px rgba(76, 76, 76, 0.3);
+	box-shadow:         inset 0px 5px 10px 5px rgba(76, 76, 76, 0.3);
 }
+
+#main_menu{
+	display: none;
+}
+
