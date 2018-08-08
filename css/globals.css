@@ -1,9 +1,10 @@
 body, html{
 	margin: 0;
 	padding: 0;	
+	font-family: 'Roboto', sans-serif;
 }
 
-#top{
+#top #logo{
 	display: block;
 	position: relative;
 	padding: 8px;
@@ -13,7 +14,23 @@ body, html{
 	box-shadow:         inset 0px 5px 10px 5px rgba(76, 76, 76, 0.3);
 }
 
-#main_menu{
-	display: none;
+/* unvisited link */
+a:link {
+    color: #111;
+}
+
+/* visited link */
+a:visited {
+    color: #111;
+}
+
+/* mouse over link */
+a:hover {
+    color: #111;
+}
+
+/* selected link */
+a:active {
+    color: #111;
 }
 

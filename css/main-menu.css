@@ -1,0 +1,36 @@
+#main_menu{
+	display: block;
+}
+
+#main_menu ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	background-color: #d2f2e3;
+}
+
+#main_menu ul:after{
+	content: "";
+    clear: both;
+    display: table;
+}
+
+#main_menu ul li{
+	float: left;
+	overflow: auto;
+	margin: 0;
+	padding: 0.2rem 0.6rem 0.2rem 0.2rem;
+	text-transform: uppercase;
+	background-color: #6ae8ad;
+	border-right: 0.1rem solid #f1f1f1;
+	cursor: pointer;
+}
+
+#main_menu ul li:hover{
+	background-color: #18f28c;
+	text-decoration: underline;
+}
+
+#main_menu ul li a{
+		text-decoration: none;
+}
